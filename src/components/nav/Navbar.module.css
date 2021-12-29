@@ -1,0 +1,27 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 8rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.03);
+  z-index: 20;
+}
+
+.navbar__heading {
+  font-size: 2.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 40.625em) {
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar {
+    padding: 2.5rem 5rem;
+  }
+}

@@ -1,0 +1,27 @@
+.about-us {
+  flex: 1 1;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.about-us__box {
+  background-color: white;
+  padding: 4rem 6rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: grid;
+}
+.about-us__box h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-us__box p {
+  font-size: 1.8rem;
+}
+
+.copyright {
+  margin-top: 5rem;
+  font-size: 1.2rem !important;
+}

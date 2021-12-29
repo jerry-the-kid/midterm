@@ -1,0 +1,10 @@
+.hamburger {
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 40.625em) {
+  .hamburger {
+    display: none;
+  }
+}

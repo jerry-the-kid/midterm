@@ -1,0 +1,49 @@
+.card {
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.03);
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+.card-flags {
+  min-height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-body {
+  padding: 3rem 2rem;
+  background-color: white;
+}
+
+.card-heading {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.68;
+}
+
+@media only screen and (max-width: 34.375em) {
+  .card-flags {
+    min-height: 27rem;
+  }
+
+  .card-heading {
+    font-size: 3rem;
+  }
+
+  .card p {
+    font-size: 1.5rem;
+  }
+  .card-body {
+    padding: 4rem;
+  }
+}
